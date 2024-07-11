@@ -1,0 +1,104 @@
+.Navbar{
+    width: 100vw;
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2vw;
+    font-family: var(--font1);
+    position: relative;
+    z-index: 1;
+}
+.Navbar .name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .7em;
+    color: var(--red);
+    width: 30%;
+
+}
+.Navbar ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: .6em;
+}
+.Navbar ul a{
+    color: var(--red);
+    text-decoration: none;
+}
+
+.Navbar .firstUl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+.Navbar .firstUl li::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: var(--red);
+    transition: .3s;
+}
+.Navbar .firstUl li:hover::after{
+    transition: .3s;
+    width: 100%;
+}
+
+.Navbar .secondUl{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar .secondUl li a{
+    cursor: pointer;
+    font-size: .9em;
+    background-color: #fff;
+    border: 1px solid var(--red);
+    font-family: var(--font1);
+    padding: 1vw 1.5vw;
+    transition: .3s;
+}
+
+.Navbar .secondUl li .login:hover{
+    transition: .3s;
+    background-color: var(--red);
+    color: #fff;
+    padding: .8vw 1.5vw;
+}
+.Navbar .secondUl li .name{
+    background-color: var(--red);
+    color: white;
+}
+.Navbar .secondUl li .name:hover{
+    transition: .3s;
+    background-color: var(--red);
+    color: #fff;
+    padding: .8vw 1.5vw;
+}
+.Navbar .secondUl li .signup{
+    background-color: var(--red);
+    color: #fff;
+    margin-left: 20px;
+}
+
+.Navbar .secondUl li .signup:hover{
+    transition: .3s;
+    background-color: #fff;
+    color: var(--red);
+    padding: .8vw 1.5vw;
+}
+.Navbar .secondUl li .logout:hover{
+    transition: .3s;
+    background-color: #fff;
+    color: var(--red);
+    padding: .8vw 1.5vw;
+}

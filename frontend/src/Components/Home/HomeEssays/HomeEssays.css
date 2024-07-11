@@ -1,0 +1,36 @@
+.HomeEssays{
+    color: white;
+    margin-top: 15vw;
+}
+.HomeEssays .fromblogh1{
+    font-size: 3vw;
+    text-align: left;
+    margin-left: 2vw;
+    margin-bottom: 5vw;
+}
+.HomeEssaysContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.HomeSingularEssay{
+    background-color: transparent;
+    border: none;
+    color: white;
+    background-color: var(--red);
+    text-align: left;
+    padding: 2vw;
+    width: 30vw;
+    transition: .4s;
+}
+.HomeSingularEssay h1{
+    width: 27vw;
+    font-size: 1.5vw;
+}
+.HomeSingularEssay p{
+    font-size: .9vw;
+}
+.HomeSingularEssay:hover{
+    width: 35vw;
+    padding: 3vw;
+}

@@ -1,0 +1,15 @@
+.heroImg{
+    width: 100vw;
+    height: 90vh;
+    z-index: 2;
+    position: relative;
+}
+
+.Home .phisothist{
+    z-index: 3;
+    position: absolute;
+    top: 25vw;
+    left: -5vw;
+    font-size: 2vw;
+    rotate: 90deg;
+}

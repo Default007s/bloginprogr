@@ -1,0 +1,38 @@
+.CreateEssay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 8vw 0;
+}
+
+.CreateEssay form{
+    padding: 1vw;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.CreateEssay form input{
+    border: 1px solid lightgrey;
+    font-size: 1.1vw;
+    margin: .7vw 0;
+    padding: 1.2vw;
+}
+
+.CreateEssay form button{
+    background-color: var(--red);
+    color:#fff;
+    border: none;
+    font-size: 1.1vw;
+    margin: .7vw 0;
+    padding: 1.2vw;
+    }
+    
+.selectMultiple{
+    font-family: sans-serif;
+    font-size: 1.1vw;
+    border-radius: none;
+}

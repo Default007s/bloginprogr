@@ -1,0 +1,62 @@
+.Footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--red);
+    color: white;
+    font-size: 1vw;
+    padding: 4vw;
+    position: relative;
+    z-index: 1;
+}
+.Footer .LeftFoot{
+    width: 40vw;
+    height: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    text-align: left;
+}
+.Footer .LeftFoot p a{
+    color: white;
+}
+.Footer .LeftFoot .madeBy{
+    width: max-content;
+    padding: 1vw;
+    background-color: #892d20;
+}
+.Footer .RightFoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    width: 30vw;
+}
+.Footer .RightFoot .SocialFoot, .Footer .RightFoot .LinkFoot{
+    display: flex;
+    flex-direction: column;
+    text-align : left;
+}
+.Footer .RightFoot .LinkFoot a{
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    font-size: 1.1em;
+}
+.Footer .RightFoot div a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: .8vw;
+}
+.Footer .RightFoot .SocialFoot a {
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Footer .RightFoot .SocialFoot a p{
+    width: 10vw;
+    font-size: .65em;
+}

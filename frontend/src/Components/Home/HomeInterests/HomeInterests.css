@@ -1,0 +1,55 @@
+
+.HomeInterests {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35vh;
+}
+
+.HomeInterests img{
+    width: 45%;
+}
+
+.interests{
+    /* width: 50%; */
+    font-size: 1.5vw;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 3vw;
+    grid-row-gap: 2vw;
+}
+
+#interest1 { grid-area: 1 / 3 / 2 / 4; }
+#interest2 { grid-area: 2 / 2 / 3 / 3; }
+#interest3 { grid-area: 2 / 3 / 3 / 4; }
+#interest4 { grid-area: 2 / 4 / 3 / 5; }
+#interest5 { grid-area: 3 / 2 / 4 / 3; }
+#interest6 { grid-area: 3 / 3 / 4 / 4; }
+#interest7 { grid-area: 3 / 4 / 4 / 5; }
+#interest8 { grid-area: 4 / 3 / 5 / 4; }
+
+.interests button{
+    font-size: 1.4vw;
+    color: var(--red);
+    font-family: "Playfair Display";
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+    padding: 1vw;
+    border: 5px solid var(--red);
+    height: 100%;
+    transition: .4s;
+}
+
+.interests button:hover{
+    background-color: var(--red);
+    color: white;
+    border-color: white;
+    transition: .4s;
+}

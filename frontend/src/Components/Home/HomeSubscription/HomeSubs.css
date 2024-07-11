@@ -1,0 +1,39 @@
+.HomeSubs{
+    color: white;
+    margin: 15vh 0 30vh 0;
+}
+
+.HomeSubs h1{
+    font-size: 3vw;
+}
+
+.HomeSubs input{
+    width: 40vw;
+    font-size: 1vw;
+    padding: 1vw;
+}
+.HomeSubs button{
+    font-family: var(--font1);
+    background-color: var(--red);
+    color: white;
+    border: none;
+    font-size: 1.4vw;
+    padding: .7vw 2vw;
+}
+.HomeSubs img{
+    width: 35vw;
+}
+.getEmail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomeSubs .upperHomeSubs{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,116 @@
+.LRcontainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LR{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    width: 80vw;
+}
+.LRleft{
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+    width: 50%;
+    color: var(--red);
+}
+.LRleft input, .LRleft button{
+    font-size: 1vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    border: 1px solid var(--red);
+}
+.LRleft input{
+    color: var(--red);
+}
+.LRleft input::placeholder{
+    color: var(--red);
+}
+.LRleft button{
+    background-color: var(--red);
+    color: white;
+    transition: .4s;
+}
+
+.LRleft button:hover{
+    padding: 1.3vw;
+    background-color: #fff;
+    color: var(--red);
+    transition: .4s;
+}
+.LRright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw;
+    width: 50%;
+    background-color: var(--red);
+    color: #fff;
+}
+
+.LRright p{
+    font-size: 1vw;
+    text-align: justify;
+}
+
+.LRright button{
+    background-color: #fff;
+    color: var(--red);
+    font-size: 1vw;
+    padding: 1vw 3vw;
+    width: max-content;
+    border: none;
+    transition: .4s;
+}
+
+.LRright button:hover{
+    border: 1px solid #fff;
+    padding: 1vw 4vw;
+    transition: .2s;
+    color: white;
+    background-color: var(--red);
+}
+
+.LRright a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LRbackHome{
+    top: 2vw;
+    left: 2vw;
+    background-color: var(--red);
+    color: white;
+    text-decoration: none;
+    padding: 1vw;
+    font-size: 1vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border: 1px solid var(--red);
+}
+/* 
+.LRbackHome::before{
+    content: '<-';
+    font-size: 1.6vw;
+    margin-top: -7px;
+    margin-right: .5vw;
+    font-weight: bold;
+    color: white;
+    transition: .4s;
+    display: none;
+} */
+.LRbackHome:hover{
+    transition: .4s;
+    color: var(--red);
+    background-color: transparent;
+}

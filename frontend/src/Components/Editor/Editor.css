@@ -1,0 +1,32 @@
+.quill{
+    font-size: 2vw;
+}
+.quill > * {
+    border-color: grey;
+}
+.quill > .ql-container {
+    font-size: 1.1vw;
+}
+.ql-snow.ql-toolbar button svg {
+    color: #444;
+}
+.ql-snow .ql-fill {
+    fill: currentColor !important;
+}
+.ql-picker-item {
+    color: #444 !important;
+}
+.ql-toolbar .ql-formats .ql-header span{
+    font-size: 1vw;
+}
+.ql-toolbar .ql-formats .ql-header span svg polygon{
+    width: 1.1vw;
+    height: 1.1vw;
+}
+.ql-toolbar .ql-formats button {
+    width: 2.5vw;
+}
+.ql-toolbar .ql-formats button svg{
+    width: 1.2vw;
+    height: 1.2vw;
+}
